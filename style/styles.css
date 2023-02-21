@@ -13,8 +13,8 @@ header{
   padding: 30px 5%;
   background-color: #fff1f1;
   min-width: max-content;  
-  height: 180px;
-
+  height: 180px; 
+  
 }
 
 .container_header {
@@ -25,7 +25,6 @@ header{
   margin: auto;
   padding: 0px 0px;
   background: #fff1f1;
-  
  
 }
 

@@ -156,6 +156,22 @@ body{
 
 }
 
+@media screen and (max-width: 1650px ) {
+    .fila {
+      width: 100%;
+      flex-direction: column;
+      padding: 20px;
+      margin-left: 20px;
+      }
+    .body {
+      width: 100%;
+    }
+    .footer {
+      width: 100%;
+
+}
+}
+/*
 @media (max-width: 768px) {
   body {
     background-size: contain;
@@ -240,3 +256,4 @@ body{
     padding: 20px;
   }
 }
+*/

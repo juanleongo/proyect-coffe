@@ -1,4 +1,12 @@
 const btn = document.getElementById('enviar');
+let popup = document.getElementById("popup");
+
+function openPopup() {
+  popup.classList.add("open-popup");
+}
+function closePopup() {
+  popup.classList.remove("open-popup");
+}
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
@@ -12,7 +20,7 @@ document.getElementById('form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Enviar';
-      alert('Enviado');
+      
       document.getElementById('form').reset();
 
     }, (err) => {
