@@ -24,7 +24,7 @@ body{
 .descrip{
   color: #fff;
   font-size: 40px;
-  line-height: 15px;
+  line-height: 50px;
 }
 
 
@@ -71,7 +71,7 @@ body{
 }
 
 .contenedor1:hover > .capa h3{
-  font-size: 20px;
+  font-size: 30px;
   
 } 
 
@@ -80,11 +80,12 @@ body{
   transition: all 500ms ease-out;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-size: 30px;
 } 
 
 .contenedor1 figure .capa p{
   color:#4f0e0e;
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
   padding: 20px;
 }
@@ -131,7 +132,7 @@ body{
 }
 
 .contenedor2:hover > .capa h3{
-  font-size: 20px;
+  font-size: 100px;
 
 } 
 
@@ -140,12 +141,12 @@ body{
   transition: all 500ms ease-out;
   margin-bottom: 20px;
   margin-top: 20px;
-  
+  font-size: 30px;
 } 
 
 .contenedor2 figure .capa p{
   color:#4f0e0e;
-  font-size: 15px;
+  font-size: 22px;
   text-align: justify;
   padding: 20px;
 }
